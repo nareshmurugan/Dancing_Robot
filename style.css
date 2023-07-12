@@ -225,6 +225,7 @@ p{
 .box:hover p{
     opacity: 1;
     color: rgb(238, 1, 1);
+    animation: co1 1s infinite;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transform: translateX(200px);
