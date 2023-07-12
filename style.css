@@ -225,10 +225,17 @@ p{
 .box:hover p{
     opacity: 1;
     color: rgb(238, 1, 1);
-    animation: co1 1s infinite;
+    animation: co2 1s infinite;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transform: translateX(200px);
+}
+@keyframes co2{
+    0%  {color:rgb(81, 248, 81);}
+   35%  {color:rgb(0, 255, 221);}
+   50%  {color:rgb(255, 196, 0);}
+   75%  {color:rgb(0, 255, 0); }
+   100% {color:rgb(234, 0, 255);}
 }
 
 .box:hover img{
