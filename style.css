@@ -122,7 +122,7 @@ img{
     animation: co1 3s infinite;
 }
 .box:hover #lhand {
-    animation: lh 500ms infinite;
+    animation: lh 0.1s infinite;
     transform-origin: top center;
     
 }
